@@ -1,0 +1,39 @@
+<!DOCTYPE-html>
+<html lang="ru">
+<head>
+	<title>Регистрация пользователя.</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<form method="POST" action="config_register.php" name="signup-form">
+
+		<div>
+			 <label>Login</label>
+			 <input type="text" name="username" pattern="[a-zA-Z0-9]+" required minlength="6"  />
+		</div>
+
+		<div>
+			 <label>Password</label>
+			 <input type="password" name="password"  required minlength="6"  />
+		</div>
+
+		<div>
+			 <label>Confirm passworld</label>
+			 <input type="password" name="Confirm_password"  required minlength="6"  />
+		</div>
+
+		<div>
+			 <label>Email</label>
+			 <input type="email" name="email"  required />
+		</div>
+
+	<button type="submit" name="register" value="register">Регистрация</button>
+
+	</form>
+	
+
+
+
+</body>
+</html>
