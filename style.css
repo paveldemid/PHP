@@ -1,0 +1,79 @@
+body{ /* Создаем фон */
+	padding: 20px;
+	background: url('fon.jpg') no-repeat;
+}
+
+
+.home_h1{ /* Редактируем текст в файле home */
+	padding: 70px;
+	color:#BDB76B;
+	font-size:150%;
+	font-family:'SEGOE SCRIPT';
+	text-align: center;
+}
+
+
+.btn_home_one {  /* Создаем кнопку-ссылку */
+ 	/* Размещаем по центру*/
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    position:relative; 
+    left:16px; /* Размещаем по центру */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    padding: 1em 4em; /* Отступ от текста до рамки */
+
+
+  } 
+
+  .btn_home_two {  /* Создаем кнопку-ссылку */
+ 	/* Размещаем по центру*/
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    padding: 1em 1em; /* Отступ от текста до рамки */
+
+   }   
+
+
+
+input {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+}
+
+   form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    width: 500px;
+    background: #eee;
+  
+
+}
+
+
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background:#8C959D ;
+    color: white;
+    border: none;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+}
+
